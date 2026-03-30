@@ -71,7 +71,7 @@ const API = {
 
 // ── State ────────────────────────────────────────────────────
 
-/** @type {Map<string, { file: File, status: string, el: HTMLLIElement }>} */
+/** @type {Map<string, { file: File, status: string }>} */
 const queue = new Map();
 
 // ── DOM refs ─────────────────────────────────────────────────
@@ -242,11 +242,6 @@ function showToast(msg, type = "info") {
 
 // ── Helpers ───────────────────────────────────────────────────
 
-function formatBytes(bytes) {
-  if (bytes < 1024) return `${bytes} B`;
-  if (bytes < 1024 ** 2) return `${(bytes / 1024).toFixed(1)} KB`;
-  return `${(bytes / 1024 ** 2).toFixed(1)} MB`;
-}
 
 function escapeHtml(str) {
   return String(str)
