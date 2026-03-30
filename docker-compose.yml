@@ -1,0 +1,14 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - OUTPUT_DIR=/data/output
+    volumes:
+      - output_data:/data/output
+    restart: unless-stopped
+
+volumes:
+  output_data:

@@ -3,13 +3,6 @@
 Fragebogen-Extraktor – Psychiatrie St.Gallen (v2)
 Liest gescannte Patientenzufriedenheits-Fragebögen (PDF) aus
 und extrahiert alle Antworten via Claude Vision API.
-
-Verbesserungen v2:
-- 300 DPI Rendering für schärfere Bilder
-- Zweistufige Extraktion: erst beschreiben, dann strukturieren
-- Präzisere Prompts mit visuellen Ankern
-- Konfidenz-Score pro Antwort
-- Validierung der extrahierten Werte
 """
 
 import anthropic
@@ -369,10 +362,10 @@ def extract_fragebogen(pdf_path: str) -> dict:
     
     client = anthropic.Anthropic()
     
-    print(f"\n🔍  Pass 1: Visuelles Lesen...")
+    print("\n🔍  Pass 1: Visuelles Lesen...")
     description = pass1_describe(client, images)
-    
-    print(f"\n🧩  Pass 2: Strukturierung...")
+
+    print("\n🧩  Pass 2: Strukturierung...")
     data = pass2_structure(client, description)
     
     # Validierung
@@ -434,7 +427,7 @@ def flatten_for_csv(data: dict, source_file: str) -> dict:
     
     # Abschluss
     row["gesamtzufriedenheit"] = data.get("abschluss", {}).get("gesamtzufriedenheit")
-    row["weiterempfehlung"]    = data.get("abschluss", {}).get("weiterempfehlung")
+    row["weiterempfehlung"] = data.get("abschluss", {}).get("weiterempfehlung")
     
     return row
 
@@ -529,8 +522,8 @@ def collect_pdfs(inputs: list[str]) -> list[Path]:
 
 def process_one(pdf_path: Path, output_dir: str, csv_path: str) -> bool:
     """Verarbeitet einen einzelnen Fragebogen. Gibt True bei Erfolg zurück."""
-    ts        = datetime.now().strftime("%Y%m%d_%H%M%S")
-    stem      = pdf_path.stem
+    ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+    stem = pdf_path.stem
     json_path = os.path.join(output_dir, f"{stem}_{ts}.json")
     desc_path = os.path.join(output_dir, f"{stem}_{ts}_beschreibung.txt")
 
@@ -612,9 +605,9 @@ def main():
     os.makedirs(output_dir, exist_ok=True)
     csv_path = os.path.join(output_dir, "fragebogen_sammlung.csv")
 
-    total    = len(pdfs)
-    ok       = 0
-    failed   = []
+    total = len(pdfs)
+    ok = 0
+    failed = []
 
     print(f"\n{'═' * 55}")
     print(f"  BATCH-VERARBEITUNG: {total} Fragebogen")

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fragebogen-Extraktor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="layout">
+    <header class="header">
+      <div class="header-inner">
+        <h1>Fragebogen-Extraktor</h1>
+        <p class="subtitle">Psychiatrie St. Gallen – Patientenzufriedenheit</p>
+      </div>
+    </header>
+
+    <main class="main">
+
+      <!-- Drop Zone -->
+      <section class="dropzone" id="dropzone" aria-label="PDF-Dateien hier ablegen">
+        <div class="dropzone-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+               stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+            <polyline points="14 2 14 8 20 8"/>
+            <line x1="12" y1="18" x2="12" y2="12"/>
+            <polyline points="9 15 12 12 15 15"/>
+          </svg>
+        </div>
+        <p class="dropzone-label">PDF-Dateien hier ablegen</p>
+        <p class="dropzone-hint">oder</p>
+        <label class="btn btn-secondary" for="file-input">Dateien auswählen</label>
+        <input type="file" id="file-input" accept=".pdf" multiple hidden />
+      </section>
+
+      <!-- Actions Bar -->
+      <section class="actions-bar" id="queue-section" hidden>
+        <div class="actions-bar-inner">
+          <span class="queue-count-label"><span id="queue-count">0</span> PDF(s) bereit</span>
+          <div class="overall-progress" id="overall-progress" hidden>
+            <div class="overall-progress-label">
+              <span id="progress-label">0 von 0 verarbeitet</span>
+              <span id="progress-pct">0%</span>
+            </div>
+            <div class="overall-progress-bar-wrap">
+              <div class="overall-progress-bar" id="overall-progress-bar"></div>
+            </div>
+          </div>
+          <div class="actions-bar-buttons">
+            <button class="btn btn-ghost" id="clear-btn" type="button">Alle entfernen</button>
+            <button class="btn btn-primary" id="process-btn" type="button" disabled>
+              Jetzt verarbeiten
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Results -->
+      <section class="results-section" id="results-section" hidden>
+        <h2>Ergebnisse</h2>
+        <ul class="result-list" id="result-list" role="list"></ul>
+      </section>
+
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
