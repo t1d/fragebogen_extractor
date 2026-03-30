@@ -1,0 +1,140 @@
+=== SEITE 1 (Titelseite) ===
+# Analyse der Titelseite / Gesamturteil-Seite
+
+## 1. GESCHLECHT
+Das erste Kästchen "männlich" ist angekreuzt (☒).
+Die Kästchen "weiblich" und "divers" sind leer.
+
+## 2. ALTER
+Im Altersfeld steht handgeschrieben: **64** Jahre
+
+## 3. ANZAHL AUFENTHALTE
+Im Feld "Wie oft waren Sie schon in unserer Klinik (mit dem letzten Aufenthalt)?" steht handgeschrieben: **7** Mal
+
+## 4. AUFENTHALTSDAUER
+Das dritte Kästchen "☒ 15 bis 30 Tage" ist angekreuzt.
+Die Kästchen "1 bis 5 Tage", "6 bis 14 Tage" und "mehr als 30 Tage" sind leer.
+
+## 5. GESAMTURTEIL POSITIV
+Das obere Textfeld ("Was fanden Sie besonders gut / positiv?") ist **leer**.
+
+## 6. GESAMTURTEIL NEGATIV
+Das untere Textfeld ("Was hat Sie an der Klinik gestört?") ist **leer**.
+
+=== SEITE 2 (Fragen 1–25) ===
+# Analyse Fragebogen Seite 2-3 (Fragen 1-25)
+
+## AUFNAHME/EINTRITT (7er-Skala)
+
+**Frage 1** - Ich konnte meine Situation im Aufnahmegespräch ausreichend darlegen.
+- Angekreuzt: Kästchen 5 von links (von 7)
+
+**Frage 2** - Nach dem Eintritt wurde mir das weitere Vorgehen erklärt.
+- Angekreuzt: Kästchen 5 von links (von 7)
+
+## AUFENTHALT (7er-Skala)
+
+**Frage 3** - Das Wesen meiner Krankheit wurde mir erklärt.
+- Angekreuzt: Kästchen 6 von links (von 7)
+
+**Frage 4** - Ich erhielt verständliche Antworten auf meine Fragen zu meinem Zustand.
+- Angekreuzt: Kästchen 4 von links (von 7)
+
+**Frage 5** - Bei der Therapieplanung konnte ich Einfluss nehmen.
+- Angekreuzt: Kästchen 5 von links (von 7)
+
+**Frage 6** - Meine Bewegungsfreiheit wurde unnötig eingeschränkt.
+- Angekreuzt: Kästchen 3 von links (von 7)
+
+**Frage 7** - Die Wirkungen der Medikamente und mögliche Nebenwirkungen wurden mir verständlich erklärt.
+- Angekreuzt: Kästchen 6 von links (von 7)
+
+**Frage 8** - Das Zusammenleben mit den Mitpatient*innen* empfand ich als hilfreich.
+- Angekreuzt: Kästchen 5 von links (von 7)
+
+**Frage 9** - Therapeutenwechsel wurden gut vorbereitet und durchgeführt (Ärztinnen*/Psychologinnen*).
+- Angekreuzt: Kästchen 5 von links (von 7)
+- Separates Feld "Ich hatte keine Therapeutenwechsel": NICHT angekreuzt
+
+**Frage 10** - Ich fühlte mich vom Klinikpersonal respektvoll behandelt.
+- Angekreuzt: Kästchen 6 von links (von 7)
+
+**Frage 11** - Mit mir wurden Therapieziele / Behandlungsziele vereinbart.
+- Angekreuzt: Kästchen 5 von links (von 7)
+
+## ZUSAMMENARBEIT (6er-Skala + "Ich hatte keinen Kontakt")
+
+**Frage 12** - Wie hilfreich empfanden Sie die Zusammenarbeit mit ... Ihrer Ärztin*
+- Angekreuzt: Kästchen 5 von links (von 6)
+- Separates Feld "Ich hatte keinen Kontakt": NICHT angekreuzt
+
+**Frage 13** - Ihrer Psychologin*
+- Angekreuzt: Kästchen 5 von links (von 6)
+- Separates Feld: NICHT angekreuzt
+
+**Frage 14** - Ihrer Pflegebezugsperson
+- Angekreuzt: Kästchen 6 von links (von 6)
+- Separates Feld: NICHT angekreuzt
+
+**Frage 15** - der Sozialarbeiterin*
+- Angekreuzt: Kästchen 6 von links (von 6)
+- Separates Feld: NICHT angekreuzt
+
+**Frage 16** - Ihren weiteren Therapeutinnen* (Bewegungs-, Gestaltungs-, Musik- und / oder Ergotherapie, Physiotherapie)
+- Angekreuzt: Kästchen 6 von links (von 6)
+- Separates Feld: NICHT angekreuzt
+
+## BEHANDLUNG (7er-Skala)
+
+**Frage 17** - Ich fühlte mich mit meinen körperlichen Beschwerden medizinisch gut betreut.
+- Angekreuzt: Kästchen 6 von links (von 7)
+
+**Frage 18** - Auf die medikamentöse Therapie konnte ich Einfluss nehmen.
+- Angekreuzt: Kästchen 6 von links (von 7)
+
+**Frage 19** - Ich hatte keine Hemmungen, meiner Ärztin* / Psychologin* Fragen zu stellen.
+- Angekreuzt: Kästchen 2 von links (von 7)
+
+**Frage 20** - Die Behandlung hat mir dabei geholfen, besser mit meinen Problemen umzugehen.
+- Angekreuzt: Kästchen 6 von links (von 7)
+
+**Frage 21** - Die Zusammenarbeit zwischen meinen Angehörigen und dem betreuenden Personal entsprach meinen Bedürfnissen.
+- Angekreuzt: Kästchen 6 von links (von 7)
+- Separates Feld "Ich habe keine Angehörigen": NICHT angekreuzt
+
+## AUSTRITT (7er-Skala)
+
+**Frage 22** - Meine Nachbetreuung war gut organisiert.
+- Angekreuzt: Kästchen 6 von links (von 7)
+
+**Frage 23** - Die Vorbereitung auf die Entlassung entsprach meinen Bedürfnissen (z.B. rechtzeitige Mitteilung des Entlassungstermins/ ausführliches Abschlussgespräch/ Empfehlungen für die Zeit nach der Entlassung).
+- Angekreuzt: Kästchen 6 von links (von 7)
+
+**Frage 24** - Verglichen mit der Zeit, als ich in die Klinik eingetreten bin, ist mein Zustand jetzt
+- Angekreuzt: Kästchen "viel besser" (2. Kästchen von oben)
+- Nicht angekreuzt: sehr viel besser, besser, unverändert, schlechter, viel schlechter, sehr viel schlechter, Kann ich nicht beurteilen
+
+## FRAGE 25 - Wie zufrieden waren Sie mit... (7er-Skala: 1=sehr unzufrieden, 7=sehr zufrieden)
+
+**dem Zimmer**
+- Angekreuzt: Kästchen 5 von links (von 7)
+
+**dem Essen**
+- Angekreuzt: Kästchen 6 von links (von 7)
+
+**den Gemeinschaftseinrichtungen**
+- Angekreuzt: Kästchen 6 von links (von 7)
+
+**Restaurant / Cafeteria**
+- Angekreuzt: Kästchen 6 von links (von 7)
+
+**Freizeitmöglichkeiten**
+- Angekreuzt: Kästchen 6 von links (von 7)
+
+## WEITERE BEWERTUNGEN (unten auf der Seite, 7er-Skala)
+
+**Ich war insgesamt mit dem Aufenthalt in der Klinik...**
+- Angekreuzt: Kästchen 6 von links (von 7)
+
+**Ich würde diese Klinik weiterempfehlen**
+- Angekreuzt: Kästchen 6 von links (von 7)
