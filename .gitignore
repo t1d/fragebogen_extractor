@@ -1,0 +1,15 @@
+# Environment
+.env
+
+# Output
+output/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Docker
+*.log
